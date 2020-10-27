@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/SidebarChannel.css";
 
 
-function SidebarChannel() {
+function SidebarChannel({id, channel}) {
     return (
         <div className="sidebarChannel">
             <h4>

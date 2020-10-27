@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/Chat.css";
+import ChatHeader from "../components/ChatHeader";
 
 function Chat() {
     return(
         <div className="chat">
-            <h4>This is the Chat Site</h4>
+            <ChatHeader />
         </div>
     );
 }
